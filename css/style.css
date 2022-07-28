@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  overflow: 0;
+  font-family: "Oswald", sans-serif;
+}
+body {
+  background: url("../images/pexels-pixabay-271816.jpg");
+  background-size: cover;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.nav-first img {
+  /* border: 2px solid black; */
+  width: 10rem;
+  margin-left: 3rem;
+}
+.nav-law {
+  /* border: 2px solid black; */
+  display: flex;
+  font-size: 1.8rem;
+  color: black;
+}
+
+.nav-mid {
+  /* border: 2px solid black; */
+  display: flex;
+  width: 50%;
+  position: absolute;
+  right: 10%;
+  top: 0%;
+}
+.line {
+  border-bottom: solid;
+  width: 58%;
+  margin-left: 36%;
+  margin-top: 2%;
+  color: #0d0d0d;
+}
+.nav-mid h4 {
+  /* border: 2px solid black; */
+  display: flex;
+  margin-left: 3rem;
+}
+
+.phone-img img {
+  width: 3rem;
+  margin-left: 5rem;
+  margin-top: 0.3rem;
+}
+.contact {
+  /* border: 2px solid black; */
+  position: relative;
+  right: -7rem;
+  top: -4rem;
+}
+
+.left-text {
+  display: inline-block;
+  /* border: 2px solid black; */
+  position: relative;
+  margin-left: 3rem;
+  margin-top: 5rem;
+  font-size: 6rem;
+  color: #ffffff;
+}
+
+.my-btn button {
+  margin-left: 3rem;
+  margin-top: 5rem;
+  width: 15%;
+  border-radius: 2rem;
+  padding: 1rem;
+  background-color: transparent;
+  border-color: #ffffff;
+  font-size: 2rem;
+  color: #ffffff;
+  font-family: "Oswald", sans-serif;
+}
+
+.puzzle-image {
+  position: absolute;
+  right: 30rem;
+  top: 10rem;
+}
+
+.puzzle-image {
+  opacity: 0.5;
+  border-radius: 2rem;
+  width: 20%;
+  background-color: whitesmoke;
+  padding: 1%;
+  border-color: #ffffff;
+}
+.puzzle-image img {
+  width: 30%;
+  border-radius: 20%;
+}
+
+.puzzle-text p {
+  font-size: 2rem;
+  font-weight: bolder;
+  color: black;
+}
+
+.bulb-image {
+  position: absolute;
+  right: 50rem;
+  top: 35rem;
+  background-color: transparent;
+  opacity: 0.5;
+  border-radius: 2rem;
+  width: 20%;
+  background-color: whitesmoke;
+  padding: 1%;
+  border-color: #ffffff;
+}
+
+.bulb-image img {
+  width: 30%;
+  border-radius: 20%;
+}
+.bulb-text p {
+  font-size: 2rem;
+  font-weight: bolder;
+  color: black;
+}
+
+@media screen and (min-width: 985px) {
+  html {
+    font-size: 55%;
+  }
+}
