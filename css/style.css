@@ -24,7 +24,7 @@ html {
   /* border: 2px solid black; */
   display: flex;
   font-size: 1.8rem;
-  color: black;
+  color: #FFFFFF;
 }
 
 .nav-mid {
@@ -40,7 +40,7 @@ html {
   width: 58%;
   margin-left: 36%;
   margin-top: 2%;
-  color: #0d0d0d;
+  color: #FFFFFF;
 }
 .nav-mid h4 {
   /* border: 2px solid black; */
